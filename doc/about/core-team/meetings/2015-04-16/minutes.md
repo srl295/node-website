@@ -5,7 +5,7 @@
 * [Alexis Campailla](https://github.com/orangemocha)
 * [Colin Ihrig](https://github.com/cjihrig)
 * [Julien Gilli](https://github.com/misterdjules)
-* [Michael Dawson](https://github.com/mdawsonibm)
+* [Michael Dawson](https://github.com/mhdawson)
 * [TJ Fontaine](https://github.com/tjfontaine)
 * [Steven R. Loomis](https://github.com/srl295) (scribe)
 
@@ -49,8 +49,11 @@ JGI: need to get the main scenarios, come up with use cases first
 
 MD: this is a tempoary fix, most people (hopefully) are using defaults.
 
-TJ: this is more in minor versions, when peopel are bringing up the app
-	** will look into the wrong checksums
+TJ: this [setting] is [used] more in minor versions, when people are bringing up [some version of an] app.
+
+#### Wrong checksum for node v0.12.2
+
+* This issue will be investigated. (by whom?)
 
 ### Leap Second
 
@@ -70,13 +73,14 @@ MD: google response on v8 - "thats a good qeustion"
 
 TJ: this should be first class documentation.
 
-- [ ] srl, open a new ticket. Document that Date.now  != how timers work. (doc/timers)
+- [ ] srl, open a new ticket. Document that Date.now  != how timers work.
+(`doc/timers`)
 
-### openssl
+JGI: Need to document openssl upgrades
 
-JGI: openssl upgrades, confusing
-
+* such upgrades can be confusing
 * often these upgrades are done in 'less than ideal' situations
+[pressure to fix a critical issue]
 
 #### Documenting how to update v8
 
@@ -99,17 +103,20 @@ CI: joint TC call
 
 * People don't want extra meetings - may be a little disorganized
 
-TJ: - hard but necessry- there's a lto of work to do around merging two projects
+TJ: - hard but necessary -- there's a lot of work to do around merging two projects
 
-* need to work together to maintain stable release (LTS/platform etc) has to be comfitable integrating into the entire project
+* need to work together to maintain stable release (LTS/platform etc)
+has to be comfortable integrating into the entire project
 * innovation + ideals of LTS working group.  Required amount of tension
 * hopefully good agendas
 
-SRL: more of a concatenation than a merge. agenda and time management will become critical
+SRL: more of a concatenation than a merge. agenda and time management
+will become critical
 
 TJ: time management - "we have 5 minutes to discuss this".
 
-* proposed time is "Wednesday and it has been 1pm-2pm pacific since PDT kicked in (it was noon-1 before that)."
+* proposed time is "Wednesday and it has been 1pm-2pm pacific since PDT
+kicked in (it was noon-1 before that)."
 
 ALL: This time seemed good
 
