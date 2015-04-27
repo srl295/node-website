@@ -128,14 +128,6 @@ JGI: two goals - 1. identify divergence, and 2. get used to other members
 
 JGI:  maybe, :15 joint meeting [ then individual meetings ]
 
-### Bug triage
-
-JGI: call to triage incoming bugs
-
-SRL: I wasn't able to relabel tickets
-
-TJ: will fix (fixed)
-
 ### Crash from command line (Intl)
 
 * crash from command line? [#9361](https://github.com/joyent/node/issues/9361)
